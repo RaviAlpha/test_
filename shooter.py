@@ -96,6 +96,7 @@ BLACK = (0, 0, 0)
 PINK = (235, 65, 54)
 #define font
 font = pygame.font.SysFont('Futura', 30)
+# font = pygame.font.SysFont('Futura', 30)
 
 def draw_text(text, font, text_col, x, y):
     img =  font.render(text, True, text_col)
